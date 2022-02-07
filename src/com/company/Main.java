@@ -1,13 +1,16 @@
 package com.company;
 
+import javax.sound.midi.Soundbank;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        Uchburchtuk talaa = new Uchburchtuk();
-        talaa.a = 10;
-        talaa.b = 10;
-        talaa.c = 5;
-        talaa.area(talaa.a, talaa.b, talaa.c);
+
+        Class1 class1 = new Class1(111,"Chyragym",new int[]{1,2,3,4,5,6,7,8,9});
+        System.out.print(class1.getNomer() + " " + class1.getSoz()+ " " + Arrays.toString(class1.getMassiv()));
+
 
     }
 }
